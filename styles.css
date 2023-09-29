@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  /* encabezado*/
+body{
+    background-color: bisque;
+}
+header{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: darkslategray;
+    padding-bottom: 15px;
+}
+main{
+    width: 100%;
+    background-color: lightcyan;
+    
+}
+  /* encabezado*/
+  /* links finales*/
+footer{
+    width: 100%;
+    color: coral;
+    margin: 3px;
+    padding: 3px;
+    background-color: darkslategray;
+ 
+}
+a{
+    color: white;
+    padding: 15px;
+}
+.fuente-clara {color: #eeeeee;}
+
+.fuente-oscura {color: #22211f;}
+
+.fuente-acento {
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #b59a61;
+}
+#menuprincipal .seleccion{
+    padding: 25px;
+}
+.seleccion .parrafo1{
+    padding: 10px;
+}
+.seleccion .parrafo2{
+    padding: 10px;
+    
+}
+#menuprincipal .seleccion2{
+    padding: 25px;
+}
+.seleccion2 .parrafo1{
+    padding-left: 10px;
+}
+
+
+.seleccion3 .parrafo2{
+    padding-left: 10px;
+}
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+    header{
+        background-color: burlywood;
+    }
+    .parrafo1 .parrafo2 header{
+        display: flex;
+        text-align: center;
+    }
+    .checkbtn{
+    display: block;
+    }
+    #check{
+    display: block;
+    }
+}
+
+
+
+.checkbtn{
+    color: black;
+    float: right;
+    display: none;
+   
+}
+
+#check:checked ~ ul{
+    left: 0%;
+    display: block;
+}
